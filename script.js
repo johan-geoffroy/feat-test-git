@@ -22,6 +22,6 @@ const rollupText = () => {
     }, 1500)
 }
 
-// setTimeout(() => {
-//     rollupText()
-// }, 1000)
+setTimeout(() => {
+    rollupText()
+}, 1000)
