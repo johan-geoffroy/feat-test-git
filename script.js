@@ -13,7 +13,7 @@ const rollupText = () => {
             clearInterval(rollInterval)
         } else {
             counter++
-            
+
             container.style.background = gradiants[counter]
             texts[counter -1].classList.add('text-out')
             texts[counter -1].classList.remove('text-in')
@@ -22,6 +22,6 @@ const rollupText = () => {
     }, 1500)
 }
 
-// setTimeout(() => {
-//     rollupText()
-// }, 1000)
+setTimeout(() => {
+    rollupText()
+}, 1000)
